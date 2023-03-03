@@ -10,7 +10,7 @@ root.configure(background='black')
 title = tk.Label(root, text="\n░██████╗░██████╗░██╗░░░██╗███╗░░██╗░██████╗░███████╗\n██╔════╝░██╔══██╗██║░░░██║████╗░██║██╔════╝░██╔════╝\n██║░░██╗░██████╔╝██║░░░██║██╔██╗██║██║░░██╗░█████╗░░\n██║░░╚██╗██╔══██╗██║░░░██║██║╚████║██║░░╚██╗██╔══╝░░\n╚██████╔╝██║░░██║╚██████╔╝██║░╚███║╚██████╔╝███████╗\n░╚═════╝░╚═╝░░╚═╝░╚═════╝░╚═╝░░╚══╝░╚═════╝░╚══════╝", fg="red", bg="black", font=("Courier", 11))
 title.pack()
 
-# Creating the entry box for webhook URL
+
 url_label = tk.Label(root, text="Enter the Webhook URL:", fg="red", bg="black")
 url_label.pack()
 url_entry = tk.Entry(root, width=50)
